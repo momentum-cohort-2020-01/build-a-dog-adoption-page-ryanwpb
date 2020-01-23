@@ -38,6 +38,7 @@ main {
   border-radius: 0.25rem;
   min-height: 400px;
   transition: all 0.4s ease;
+  cursor: pointer;
 }
 
 .product-block:hover {
