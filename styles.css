@@ -29,7 +29,7 @@ main {
   -webkit-display: flex;
   display: flex;
   justify-content: space-around;
-  margin: 1rem auto;
+  margin: 1rem auto 3rem;
 }
 
 .product-block {
@@ -73,6 +73,18 @@ main {
 }
 
 .product-img.six {
+  background-image: url("starter_files/images/boston-terrier.jpg");
+}
+
+.product-img.seven {
+  background-image: url("starter_files/images/boston-terrier.jpg");
+}
+
+.product-img.eight {
+  background-image: url("starter_files/images/boston-terrier.jpg");
+}
+
+.product-img.nine {
   background-image: url("starter_files/images/boston-terrier.jpg");
 }
 
