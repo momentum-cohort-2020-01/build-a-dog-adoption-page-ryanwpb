@@ -122,3 +122,23 @@ p.bubble {
   font-size: 12px;
   margin: 5px auto;
 }
+
+.action-img {
+  height: 300px;
+  width: calc(100% / 3);
+}
+
+.action-img {
+  background-image: url("starter_files/images/donate.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.action-img.volunteer {
+  background-image: url("starter_files/images/volunteer.jpg");
+}
+
+.action-img.location {
+    background-image: url("starter_files/images/location.png");
+  }
