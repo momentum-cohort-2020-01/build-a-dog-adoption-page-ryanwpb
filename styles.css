@@ -32,5 +32,22 @@ main {
 }
 
 .product-block {
-  width: calc(100% / 3);
+  width: calc(95% / 3);
+  overflow: hidden;
+  border-radius: 0.25rem;
+  min-height: 400px;
+  transition: all 0.4s ease;
+}
+
+.product-block:hover {
+  -webkit-box-shadow: 0 17px 30px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 17px 30px -5px rgba(0, 0, 0, 0.1);
+}
+
+.product-img {
+  background-image: url("starter_files/images/beans.jpg");
+  background-size: cover;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
