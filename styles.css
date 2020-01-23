@@ -129,7 +129,10 @@ p.bubble {
 }
 
 .action-img {
-  background-image: url("starter_files/images/donate.jpg");
+  background: linear-gradient(rgba(30, 9, 110, 0.5), rgba(30, 9, 110, 0.5)),
+    url('starter_files/images/donate.jpg');
+  background-position: center;
+  background-size: cover;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -138,19 +141,21 @@ p.bubble {
 }
 
 .action-img.volunteer {
-  background-image: url("starter_files/images/volunteer.jpg");
+    background: linear-gradient(rgba(30, 9, 110, 0.5), rgba(30, 9, 110, 0.5)),
+    url('starter_files/images/volunteer.jpg');
 }
 
 .action-img.location {
-  background-image: url("starter_files/images/location.png");
+    background: linear-gradient(rgba(30, 9, 110, 0.5), rgba(30, 9, 110, 0.5)),
+    url('starter_files/images/location.png');
 }
 
-.overlay {
+/* .overlay {
   height: 100%;
   width: 100%;
   background: rgba(112, 107, 173);
   opacity: 0.7;
-}
+} */
 
 .action-img h2 {
   position: absolute;
