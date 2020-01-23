@@ -47,11 +47,31 @@ main {
 .product-img {
   background-image: url("starter_files/images/beans.jpg");
   background-size: cover;
-  height: 50%;
+  height: 70%;
   background-position: center;
   background-repeat: no-repeat;
   /* filter: brightness(80%); */
   position: relative;
+}
+
+.product-img.two {
+  background-image: url("starter_files/images/boston-terrier.jpg");
+}
+
+.product-img.three {
+  background-image: url("starter_files/images/boxer.jpg");
+}
+
+.product-img.four {
+  background-image: url("starter_files/images/boston-terrier.jpg");
+}
+
+.product-img.five {
+  background-image: url("starter_files/images/boston-terrier.jpg");
+}
+
+.product-img.six {
+  background-image: url("starter_files/images/boston-terrier.jpg");
 }
 
 .prod-title {
@@ -63,6 +83,7 @@ main {
   transition: all 0.4s;
   font-size: 30px;
   font-family: "Oswald";
+  text-transform: uppercase;
 }
 
 .product-img:hover > .prod-title {
@@ -74,6 +95,10 @@ main {
   padding: 5%;
 }
 
+li {
+  display: inline;
+}
+
 p.bubble {
   display: inline-block;
   width: auto;
@@ -81,4 +106,5 @@ p.bubble {
   background: rgba(161, 219, 237);
   border-radius: 20px;
   font-size: 12px;
+  margin: 5px auto;
 }
