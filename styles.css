@@ -146,7 +146,7 @@ p.bubble {
 }
 
 .action-img.location {
-  background: linear-gradient((30, 9, 110, 0.5), rgba(30, 9, 110, 0.5)),
+    background: linear-gradient(rgba(30, 9, 110, 0.5), rgba(30, 9, 110, 0.5)),
     url("starter_files/images/location.png");
 }
 
