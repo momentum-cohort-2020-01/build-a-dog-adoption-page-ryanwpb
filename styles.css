@@ -11,5 +11,9 @@
 }
 
 .header h1 {
-    color: #fff;
+  color: #fff;
+}
+
+main {
+  padding: 1rem 2rem;
 }
