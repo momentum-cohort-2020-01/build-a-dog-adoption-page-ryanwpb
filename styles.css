@@ -50,5 +50,24 @@ main {
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(80%);
+  /* filter: brightness(80%); */
+  position: relative;
+}
+
+.prod-title {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  color: #fff;
+  opacity: 0;
+  transition: all 0.4s;
+  font-size: 30px;
+  font-family: "Oswald";
+}
+
+.product-img:hover > .prod-title {
+    bottom: 5%;
+    opacity: 1;
+}
+
 }
