@@ -42,7 +42,7 @@ main {
 }
 
 .product-block:not(:last-child) {
-    margin-right: 2rem;
+  margin-right: 2rem;
 }
 
 .product-block:hover {
