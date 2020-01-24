@@ -29,6 +29,9 @@ main {
   -webkit-display: flex;
   display: flex;
   justify-content: space-around;
+}
+
+.row:not(:last-child) {
   margin: 1rem auto 3rem;
 }
 
