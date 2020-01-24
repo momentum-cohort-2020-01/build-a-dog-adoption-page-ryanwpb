@@ -176,3 +176,23 @@ p.bubble:hover {
   z-index: 20;
   box-shadow: 0 1.5rem 4rem rgba(1, 1, 1, 0.8);
 }
+
+/* Media Queries */
+@media only screen and (max-width: 767px) {
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .product-block {
+    width: 100%;
+  }
+
+  .product-block:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .action-img {
+    width: 100%;
+  }
+}
