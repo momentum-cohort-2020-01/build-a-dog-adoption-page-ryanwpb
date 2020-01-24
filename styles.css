@@ -33,12 +33,16 @@ main {
 }
 
 .product-block {
-  width: calc(95% / 3);
+  width: calc(100% / 3);
   overflow: hidden;
   border-radius: 0.25rem;
   min-height: 400px;
   transition: all 0.4s ease;
   cursor: pointer;
+}
+
+.product-block:not(:last-child) {
+    margin-right: 2rem;
 }
 
 .product-block:hover {
@@ -52,7 +56,6 @@ main {
   height: 70%;
   background-position: center;
   background-repeat: no-repeat;
-  /* filter: brightness(80%); */
   position: relative;
 }
 
